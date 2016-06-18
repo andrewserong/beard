@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic|Amatic+SC);
+
+body {
+font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+}
+
+h1, h2, .header p {
+font-family: 'Amatic SC', cursive;
+}
+
+h3, h4 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+a {
+  color: #f6b;
+  transition: 0.2s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c38;
+}
+
+.header {
+  background-color: #222;
+  color: #fff;
+}
+
+.header h1, .header h2 {
+  margin-bottom: 0;
+}
+.header p {
+  margin: 0 0 0.75em 0;
+  font-size: 24px;
+  color: #f6b;
+}
+
+.hero-image {
+ margin-top: 1em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.tile p {
+  text-align: center;
+  color: #a9a9a9;
+}
+
+footer p {
+  color: #a9a9a9;
+  text-align: center;
+  font-size: 18px;
+}
